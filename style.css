@@ -1,0 +1,157 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
+
+.content-area {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 65px;
+    color: #fff;
+}
+
+.content p {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: #ff4d4d;
+    color: white;
+    font-weight: 400;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 500px;
+}
+
+.banner-area {
+    width: 100%;
+    height: 100vh;
+    background: url(donation4.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container>div {
+    background-color: rgb(230, 230, 230);
+    width: 70px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 150;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.donate {
+    text-align: center;
+}
+
+.donating {
+    text-align: center;
+}
+
+.taka {
+    text-align: center;
+}
+
+.bottom-hr {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 7%;
+}
+
+.link-button {
+    background-color: #ff4d4d;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.update {
+    text-align: center;
+}
+
+.plan {
+    text-align: center;
+}
+
+#plan {
+    margin-top: 100px;
+}
+
+.item {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item .item-list {
+    background: #e6f2ff;
+    margin: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer h1 {
+    color: #ff4d4d;
+    font-family: 'Pacifico', cursive;
+}
+
+footer h6 {
+    color: #fff;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    width: auto;
+    text-align: center;
+    padding: 50px;
+}
